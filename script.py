@@ -1,5 +1,5 @@
 def replace_word():
-    str = "Hello Everybody, this is me. hi hi hi hi hi hi"
+    str =input("Enter the string")
     word_to_replace = input("Enter the word to replace: ")
     word = input("Enter the word replacement: ")
     str = str.replace(word_to_replace, word)
